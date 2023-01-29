@@ -1,5 +1,99 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+@font-face {
+  font-family: 'Shabnam' ;
+  src: url('font/Shabnam.ttf') format('truetype');
+}
+      .section-title {
+          font-family: 'Shabnam' ;
+          font-size: 2em;
+          font-weight: 700;
+          margin-bottom: 0;
+          text-align: center;
+        }
+
+
+
+        
+@font-face {
+  font-family: 'Tanha';
+  src:  url('font/Tanha.ttf') format('truetype');
+  font-weight: normal;
+}
+*{
+  font-family: Tanha;
+  }
+
+@media (max-width: 1000px){
+  .resume{
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .base{
+    width: 100% !important;
+  }
+
+
+  .resume .func .interests-items div {
+
+    width: 80px !important;
+  }
+
+  .resume .base .profile .photo img {
+    width: 37% !important;
+  }
+
+
+  .resume .func .skills-soft ul li {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 225px;}
+
+
+  
+    .resume .func .skills-soft ul li span {
+      top: 46% !important;
+    }
+
+
+    .resume .func .skills-soft ul li {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      width: 171px;
+    }
+
+    .resume .func .skills-soft ul {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+    .resume .func .work{
+      width: 100% !important;
+      margin-bottom: 5px;
+    }
+    .resume .func .edu{
+      width: 100% !important;
+      margin-bottom: 5px;
+
+
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
 *,
 *:before,
 *:after {
@@ -22,15 +116,7 @@ body {
   font-size: 16px;
 
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  /* animation: gradient 15s ease infinite; */
-  -webkit-animation-name: gradient;
-  animation-name: gradient;
-  -webkit-animation-duration: 15s;
-  animation-duration: 15s;
-  -webkit-animation-delay: ease;
-  animation-delay: ease;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+
 }
 
 @keyframes gradient {
@@ -55,23 +141,28 @@ a {
 ul {
   list-style-type: none;
   padding: 0;
+  direction: rtl;
 }
 
 h3 {
-  color: #ffb300;
+  color: #c1deff;
   margin: 10px 0;
   text-transform: lowercase;
   font-size: 1.25em;
 }
 
+.base div{
+  margin-top: 20px;
+}
 .resume {
   width: 960px;
-  background: #1a237e;
-  color: #ffffff;
+  background: linear-gradient(-224deg, #ff00b3, #47baff, #0ff, rgb(255, 255, 255));  color: #ffffff;
   margin: 20px auto;
-  box-shadow: 10px 10px #0e1442;
+  box-shadow: 10px 10px rgb(176, 176, 176);
   position: relative;
   display: flex;
+  flex-direction: row-reverse;
+  border-radius: 10px;
 }
 .resume .base,
 .resume .func {
@@ -85,12 +176,14 @@ h3 {
 .resume .base > div:last-of-type,
 .resume .func > div:last-of-type {
   padding-bottom: 0;
+  margin-top: 60px;
 }
 .resume .base {
   width: 36%;
   padding: 30px 15px;
-  background: #283593;
-  color: #ffffff;
+  background: linear-gradient(-22.2deg, #ffef00, #af00ff, #ff4800, #000);
+      color: #ffffff;
+      border-radius: 10px;
 }
 .resume .base .profile {
   background: #ffb300;
@@ -98,18 +191,9 @@ h3 {
   margin: -30px -15px 45px -15px;
   position: relative;
   z-index: 2;
+  border-radius: 4px 4px 2px 2px;
 }
-.resume .base .profile::after {
-  content: "";
-  position: absolute;
-  background: #303f9f;
-  width: 100%;
-  height: 30px;
-  bottom: -15px;
-  left: 0;
-  transform: skewY(-5deg);
-  z-index: -1;
-}
+
 .resume .base .profile .photo img {
   width: 100%;
   border-radius: 50%;
@@ -123,7 +207,7 @@ h3 {
   font-size: 100px;
   text-align: center;
   margin: auto;
-  color: #283593;
+  color: #0e474d;
 }
 .resume .base .profile .info {
   text-align: center;
@@ -135,16 +219,18 @@ h3 {
   font-size: 1.75em;
   text-transform: lowercase;
   color: #1a237e;
+  direction: rtl;
 }
 .resume .base .profile .info .job {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 1.5em;
   text-transform: lowercase;
-  color: #283593;
+  color: #0e474d;
 }
 .resume .base .contact div {
   line-height: 24px;
+  direction: rtl;
 }
 .resume .base .contact div a:hover {
   color: #fdd835;
@@ -161,7 +247,7 @@ h3 {
   height: 20px;
   font-size: 20px;
   text-align: center;
-  margin-right: 15px;
+  margin-left: 15px;
   transition-duration: 0.3s;
 }
 .resume .base .contact div span {
@@ -201,7 +287,7 @@ h3 {
   height: 60px;
   border-radius: 50%;
   line-height: 60px;
-  color: #283593;
+  color: #0e474d;
   margin: 0 10px 10px 10px;
   transition-duration: 0.3s;
 }
@@ -227,10 +313,11 @@ h3 {
 .resume .func h3 {
   transition-duration: 0.3s;
   margin-top: 0;
+  direction: rtl;
 }
 .resume .func h3 i {
-  color: #283593;
-  background: #ffb300;
+  color: #0e474d;
+  background: #ffffff;
   width: 42px;
   height: 42px;
   font-size: 20px;
@@ -238,7 +325,7 @@ h3 {
   border-radius: 50%;
   text-align: center;
   vertical-align: middle;
-  margin-right: 8px;
+  margin-left: 8px;
   transition-duration: 0.3s;
 }
 .resume .func .work,
@@ -253,8 +340,8 @@ h3 {
 .resume .func .work ul li,
 .resume .func .edu ul li {
   position: relative;
-  margin-left: 15px;
-  padding-left: 25px;
+  margin-right: 15px;
+  padding-right: 25px;
   padding-bottom: 15px;
 }
 .resume .func .work ul li:hover::before,
@@ -278,16 +365,13 @@ h3 {
 .resume .func .edu ul li:first-of-type::before {
   width: 10px;
   height: 10px;
-  left: 1px;
+  right: 1px;
 }
 .resume .func .work ul li:last-of-type,
 .resume .func .edu ul li:last-of-type {
   padding-bottom: 3px;
 }
-.resume .func .work ul li:last-of-type::after,
-.resume .func .edu ul li:last-of-type::after {
-  border-radius: 1.5px;
-}
+
 .resume .func .work ul li::before,
 .resume .func .work ul li::after,
 .resume .func .edu ul li::before,
@@ -296,6 +380,10 @@ h3 {
   display: block;
   position: absolute;
 }
+
+.work ul {
+  direction: rtl;
+}
 .resume .func .work ul li::before,
 .resume .func .edu ul li::before {
   width: 7px;
@@ -303,7 +391,7 @@ h3 {
   border: 3px solid #ffffff;
   background: #ffb300;
   border-radius: 50%;
-  left: 3px;
+  right: 3px;
   z-index: 1;
 }
 .resume .func .work ul li::after,
@@ -311,7 +399,7 @@ h3 {
   width: 3px;
   height: 100%;
   background: #ffffff;
-  left: 5px;
+  right: 5px;
   top: 0;
 }
 .resume .func .work ul li span,
@@ -320,22 +408,27 @@ h3 {
 }
 .resume .func .work {
   width: 48%;
-  background: #283593;
+  background: #0e474d;
   padding: 15px;
   margin: 0 4% 15px 0;
+  border-radius:22px;
 }
 .resume .func .edu {
   width: 48%;
-  background: #283593;
+  background: #0e474d;
   padding: 15px;
+  border-radius: 15px;
 }
 .resume .func .skills-prog {
   clear: both;
-  background: #283593;
+  background: #0e474d;
   padding: 15px;
+  border-radius: 15px;
+
 }
 .resume .func .skills-prog ul {
   margin-left: 15px;
+  direction: rtl;
 }
 .resume .func .skills-prog ul li {
   margin-bottom: 8px;
@@ -371,9 +464,11 @@ h3 {
 }
 .resume .func .skills-soft {
   clear: both;
-  background: #283593;
+  background: #0e474d;
   padding: 15px;
   margin: 15px 0 0;
+  border-radius: 15px;
+
 }
 .resume .func .skills-soft ul {
   display: flex;
@@ -414,12 +509,15 @@ h3 {
   transition-duration: 0.3s;
 }
 .resume .func .skills-soft ul li span {
-  top: 40%;
+  top: 44%;
+  font-size: 11px;
 }
 .resume .func .interests {
-  background: #283593;
+  background: #0e474d;
   margin: 15px 0 0;
   padding: 15px;
+  border-radius: 15px;
+
 }
 .resume .func .interests-items {
   box-sizing: border-box;
@@ -450,9 +548,18 @@ h3 {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: #ffb300;
+  color: #00ffcf;
   transition-duration: 0.3s;
 }
 .resume .func .interests-items div span {
   display: block;
 }
+
+
+.about h3 , .about p{
+  direction: rtl;
+}
+.contact h3 , .contact p{
+  direction: rtl;
+}
+
