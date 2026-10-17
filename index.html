@@ -1,71 +1,793 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <title>Kian Sahafi — software, data & research</title>
-  <meta name="description" content="Kian Sahafi is a software engineer and researcher based in Bern, Switzerland. A selection of work across software, data systems, AI and research.">
-  <meta property="og:title" content="Kian Sahafi — software, data & research">
-  <meta property="og:description" content="A few things I've built, questions I've explored, and a little about me. Based in Bern, Switzerland.">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#111113">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="theme.js" defer></script>
-  <script src="script.js" defer></script>
-  <script src="blog-core.js" defer></script>
-  <script src="blog.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="page-shell">
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Kian Sahafi, back to top"><span class="asterisk" aria-hidden="true">✳</span> kian sahafi<span class="wordmark-dot">.</span></a>
-      <nav aria-label="Main navigation">
-        <a href="#education">Education</a><a href="#work-experience">Experience</a><a href="#projects">Projects</a><a href="#blog">Blog</a>
-      </nav>
-      <button class="theme-toggle interactive-only" type="button" aria-label="Switch to light theme" aria-pressed="true"><span class="theme-icon" aria-hidden="true">◐</span></button>
-    </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Kian Sahafi — software, data & research</title>
+    <meta
+      name="description"
+      content="Kian Sahafi is a software engineer and researcher based in Bern, Switzerland. A selection of work across software, data systems, AI and research."
+    />
+    <meta
+      property="og:title"
+      content="Kian Sahafi — software, data & research"
+    />
+    <meta
+      property="og:description"
+      content="A few things I've built, questions I've explored, and a little about me. Based in Bern, Switzerland."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#111113" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="theme.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="blog-core.js" defer></script>
+    <script src="blog.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Kian Sahafi, back to top"
+          ><span class="asterisk" aria-hidden="true">✳</span> kian sahafi<span
+            class="wordmark-dot"
+            >.</span
+          ></a
+        >
+        <nav aria-label="Main navigation">
+          <a href="#education">Education</a
+          ><a href="#work-experience">Experience</a
+          ><a href="#projects">Projects</a><a href="#blog">Blog</a>
+        </nav>
+        <button
+          class="theme-toggle interactive-only"
+          type="button"
+          aria-label="Switch to light theme"
+          aria-pressed="true"
+        >
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
+      </header>
 
-    <main id="main">
-      <section class="hero" id="top" aria-labelledby="intro-title">
-        <div class="intro">
-          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Based in Bern, Switzerland</p>
-          <h1 id="intro-title">Hi, I’m<br><em>Kian Sahafi.</em></h1>
-          <p class="intro-copy">I’m a software engineer based in Bern, completing my MSc in Computer Science at the University of Bern. My work spans software, data systems, AI, and research.</p>
-          <div class="hero-links"><a class="button button-primary" href="mailto:kiansahafi1@gmail.com">Say hello <span aria-hidden="true">↗</span></a><a class="text-link" href="#education">Explore my background <span aria-hidden="true">↓</span></a></div>
+      <main id="main">
+        <section class="hero" id="top" aria-labelledby="intro-title">
+          <div class="intro">
+            <p class="eyebrow">
+              <span class="status-dot" aria-hidden="true"></span> Based in Bern,
+              Switzerland
+            </p>
+            <h1 id="intro-title">Hi, I’m<br /><em>Kian Sahafi.</em></h1>
+            <p class="intro-copy">
+              I’m a software engineer based in Bern, completing my MSc in
+              Computer Science at the University of Bern.
+            </p>
+            <div class="hero-links">
+              <a
+                class="button button-primary"
+                href="mailto:kiansahafi1@gmail.com"
+                >Say hello <span aria-hidden="true">↗</span></a
+              ><a class="text-link" href="#education"
+                >Explore my background <span aria-hidden="true">↓</span></a
+              >
+            </div>
+          </div>
+          <div class="portrait-area">
+            <svg
+              class="sketch"
+              viewBox="0 0 460 460"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <g class="sketch-lines">
+                <path
+                  d="M40 85L160 35L306 80L418 38M160 35L213 155L306 80L416 188M40 85L70 240L213 155L262 305L416 188L427 346M70 240L38 389L171 420L262 305L345 422L427 346M213 155L416 188M262 305L171 420"
+                />
+              </g>
+              <g class="sketch-nodes">
+                <circle cx="40" cy="85" r="4" />
+                <circle cx="160" cy="35" r="4" />
+                <circle cx="306" cy="80" r="5" />
+                <circle cx="418" cy="38" r="4" />
+                <circle cx="213" cy="155" r="5" />
+                <circle cx="416" cy="188" r="4" />
+                <circle cx="70" cy="240" r="5" />
+                <circle cx="262" cy="305" r="4" />
+                <circle cx="427" cy="346" r="5" />
+                <circle cx="38" cy="389" r="4" />
+                <circle cx="171" cy="420" r="5" />
+                <circle cx="345" cy="422" r="4" />
+              </g>
+            </svg>
+            <figure class="portrait-card">
+              <div class="portrait-crop">
+                <img
+                  src="assets/kian-sahafi.jpg"
+                  alt="Kian Sahafi wearing glasses and a grey jacket"
+                  width="945"
+                  height="1181"
+                  fetchpriority="high"
+                />
+              </div>
+              <figcaption>
+                <span>this is me</span><span aria-hidden="true">:)</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="hero-foot">
+            <p>Software engineering · Data systems · Research</p>
+            <a href="#education" aria-label="Explore education and experience"
+              >Scroll a little <span aria-hidden="true">↓</span></a
+            >
+          </div>
+        </section>
+
+        <div class="cv-layout">
+          <aside class="cv-sidebar">
+            <nav aria-label="CV sections">
+              <p class="small-label">On this page</p>
+              <a href="#education">Education</a
+              ><a href="#work-experience">Work Experience</a
+              ><a href="#research-experience">Research Experience</a
+              ><a href="#projects">Projects</a
+              ><a href="#publications">Publications</a
+              ><a href="#teaching">Teaching Experience</a
+              ><a href="#awards">Awards &amp; Honors</a
+              ><a href="#skills">Skills</a
+              ><a href="#research-interests">Research Interests</a
+              ><a href="#courses">Additional Courses</a
+              ><a href="#languages">Languages</a><a href="#blog">Blog</a>
+            </nav>
+          </aside>
+          <div class="cv-content">
+            <section
+              class="resume-section"
+              id="education"
+              aria-labelledby="education-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">01</span>
+                <h2 id="education-title">Education</h2>
+              </div>
+              <article class="cv-entry">
+                <p class="cv-date">2024 — present</p>
+                <div>
+                  <h3>MSc, Computer Science</h3>
+                  <p class="cv-place">University of Bern · Switzerland</p>
+                  <ul class="cv-bullets">
+                    <li>
+                      <strong>Master’s thesis:</strong>
+                      <em
+                        >Design and Evaluation of a Reference Architecture for
+                        Modular, Risk-Aware Backtesting Systems.</em
+                      >
+                      Comparing trading platforms and the trade-offs between
+                      batch and event-driven architectures.
+                    </li>
+                    <li>
+                      Collaborated on
+                      <em
+                        >Universal Merge: A Language-Agnostic Recommender for
+                        Merge Conflict Resolution</em
+                      >
+                      with Prof. Timo Kehrer.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">2020 — 2024</p>
+                <div>
+                  <h3>BSc, Computer Engineering</h3>
+                  <p class="cv-place">University of Zanjan · Iran</p>
+                  <ul class="cv-bullets">
+                    <li>
+                      Top team in the university ICPC contest; member of the
+                      University Innovation Center Incubator.
+                    </li>
+                    <li>
+                      Teaching assistant for Advanced Programming and System
+                      Design &amp; Analysis.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">2016 — 2020</p>
+                <div>
+                  <h3>High School · Mathematics &amp; Physics</h3>
+                  <p class="cv-place">
+                    Shahid Beheshti Exceptional Talents High School (NODET) ·
+                    Iran
+                  </p>
+                  <p class="cv-description">
+                    Ranked among the top 10 students in the Mathematics and
+                    Physics Department.
+                  </p>
+                </div>
+              </article>
+            </section>
+            <section
+              class="resume-section"
+              id="work-experience"
+              aria-labelledby="work-experience-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">02</span>
+                <h2 id="work-experience-title">Work Experience</h2>
+              </div>
+              <article class="cv-entry">
+                <p class="cv-date">
+                  Aug 2025 —<br />
+                  May 2026
+                </p>
+                <div>
+                  <h3>Software Engineer</h3>
+                  <p class="cv-place">
+                    YUUNIQ Health · Winterthur, Switzerland
+                  </p>
+                  <ul class="cv-bullets">
+                    <li>
+                      Led the production data-layer migration from MongoDB to
+                      PostgreSQL, from schema design and validation to
+                      deployment.
+                    </li>
+                    <li>
+                      Built an agentic LLM system with persistent memory on AWS
+                      and Docker under health-data privacy constraints; reduced
+                      token usage by around 60%.
+                    </li>
+                    <li>
+                      Developed a cold-start recommendation system and its
+                      interaction-data pipeline.
+                    </li>
+                    <li>
+                      Increased test coverage by 30% and contributed to a
+                      cross-company merger integration.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">
+                  Apr 2022 —<br />
+                  Sep 2024
+                </p>
+                <div>
+                  <h3>Software Engineer &amp; Co-founder</h3>
+                  <p class="cv-place">Firozak · Zanjan, Iran</p>
+                  <ul class="cv-bullets">
+                    <li>
+                      Built nine distributed data-processing bots and evaluated
+                      microservices trade-offs in reliability, maintainability,
+                      and complexity.
+                    </li>
+                    <li>
+                      Worked with customers, reviewed code, and mentored
+                      engineers; contributed to 50% user growth.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">
+                  Apr 2021 —<br />
+                  Apr 2022
+                </p>
+                <div>
+                  <h3>Software Engineer</h3>
+                  <p class="cv-place">Tose’e System Tavana · Zanjan, Iran</p>
+                  <ul class="cv-bullets">
+                    <li>
+                      Proposed three core product features, including a
+                      multi-format barcode generator built with C# and Angular.
+                    </li>
+                    <li>
+                      Refactored the Angular frontend, halving bundle size;
+                      introduced unit and end-to-end tests reaching 75%
+                      coverage.
+                    </li>
+                    <li>Mentored new members of the ERP team.</li>
+                  </ul>
+                </div>
+              </article>
+            </section>
+            <section
+              class="resume-section"
+              id="research-experience"
+              aria-labelledby="research-experience-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">03</span>
+                <h2 id="research-experience-title">Research Experience</h2>
+              </div>
+              <article class="cv-entry">
+                <p class="cv-date">
+                  Oct 2024 —<br />
+                  Aug 2025
+                </p>
+                <div>
+                  <h3>Research Assistant</h3>
+                  <p class="cv-place">
+                    Software Engineering Group · University of Bern
+                  </p>
+                  <ul class="cv-bullets">
+                    <li>
+                      Worked with Prof. Timo Kehrer on Merge++, exploring
+                      automated merge conflict resolution in GitHub
+                      repositories.
+                    </li>
+                    <li>
+                      Conducted literature reviews, built research prototypes,
+                      and contributed to empirical evaluations.
+                    </li>
+                    <li>
+                      Built reproducible experiment pipelines and documented
+                      research findings.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">
+                  Aug 2023 —<br />
+                  Feb 2024
+                </p>
+                <div>
+                  <h3>Student Helper (Research)</h3>
+                  <p class="cv-place">
+                    Natural Language Processing (NLP) Lab · University of Zanjan
+                  </p>
+                  <ul class="cv-bullets">
+                    <li>
+                      Developed deep learning models for CRISPR off-target
+                      prediction under the supervision of Prof. Leila Safari.
+                    </li>
+                    <li>
+                      Performed data curation and preprocessing, including
+                      cleaning and preparing datasets for deep learning
+                      experiments.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </section>
+            <section
+              class="resume-section"
+              id="projects"
+              aria-labelledby="projects-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">04</span>
+                <h2 id="projects-title">Projects</h2>
+              </div>
+              <article class="cv-entry">
+                <p class="cv-date">
+                  Jun 2026 —<br />
+                  present
+                </p>
+                <div>
+                  <h3>Caritas Dashboard</h3>
+                  <p class="cv-place">
+                    Bern University of Applied Sciences (BFH)
+                  </p>
+                  <p class="cv-description">
+                    A secure analytics stack for sensitive welfare records, with
+                    automatic type inference. Built with Python, PostgreSQL,
+                    Apache Superset, and Podman.
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">Dec 2024</p>
+                <div>
+                  <h3>
+                    <a
+                      href="https://github.com/kiansahafi/PetBreedClassifier-ResNet50"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Oxford-IIIT Pet Classification
+                      <span aria-hidden="true">↗</span></a
+                    >
+                  </h3>
+                  <p class="cv-place">AI / Computer vision</p>
+                  <p class="cv-description">
+                    Transfer learning with ResNet-50 in TensorFlow and Keras.
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">Oct 2023</p>
+                <div>
+                  <h3>
+                    <a
+                      href="https://github.com/kiansahafi/AI-Traffic-sign-Detection"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Traffic Sign Detection
+                      <span aria-hidden="true">↗</span></a
+                    >
+                  </h3>
+                  <p class="cv-place">AI / Computer vision</p>
+                  <p class="cv-description">
+                    Traffic sign detection using YOLO.
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">Dec 2022</p>
+                <div>
+                  <h3>
+                    <a
+                      href="https://github.com/kiansahafi/Compiler_Project_University"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Compiler Project <span aria-hidden="true">↗</span></a
+                    >
+                  </h3>
+                  <p class="cv-place">Programming languages</p>
+                  <p class="cv-description">
+                    A custom compiler implemented in Python.
+                  </p>
+                </div>
+              </article>
+            </section>
+            <section
+              class="resume-section"
+              id="publications"
+              aria-labelledby="publications-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">05</span>
+                <h2 id="publications-title">Publications</h2>
+              </div>
+              <article class="cv-entry">
+                <p class="cv-date">In progress</p>
+                <div>
+                  <h3>
+                    Universal Merge: A Language-Agnostic Recommender for Merge
+                    Conflict Resolution
+                  </h3>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">Feb 2024</p>
+                <div>
+                  <h3>
+                    <a
+                      href="https://civilica.com/doc/2108465/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >A Hybrid Deep Learning-based Model for Off-target
+                      Prediction in CRISPR System
+                      <span aria-hidden="true">↗</span></a
+                    >
+                  </h3>
+                  <p class="cv-place">Conference paper</p>
+                </div>
+              </article>
+            </section>
+            <section
+              class="resume-section"
+              id="teaching"
+              aria-labelledby="teaching-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">06</span>
+                <h2 id="teaching-title">Teaching Experience</h2>
+              </div>
+              <article class="cv-entry">
+                <p class="cv-date">Spring 2023</p>
+                <div>
+                  <h3>Advanced Programming</h3>
+                  <p class="cv-place">
+                    Teaching Assistant · University of Zanjan
+                  </p>
+                  <p class="cv-description">
+                    With Dr. Hossein Mohammadi. Mentored students, led
+                    troubleshooting sessions, and designed the final course
+                    project.
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">Fall 2022</p>
+                <div>
+                  <h3>Advanced Programming</h3>
+                  <p class="cv-place">
+                    Head Teaching Assistant · University of Zanjan
+                  </p>
+                  <p class="cv-description">
+                    With Dr. Saeed Rahmani. Coordinated the TA team and managed
+                    the course project.
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">Fall 2022</p>
+                <div>
+                  <h3>System Design &amp; Analysis</h3>
+                  <p class="cv-place">
+                    Teaching Assistant · University of Zanjan
+                  </p>
+                  <p class="cv-description">
+                    With Dr. Saeed Rahmani. Guided students on software
+                    architecture and assisted with project evaluation.
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">Spring 2021</p>
+                <div>
+                  <h3>Advanced English for Computer Students</h3>
+                  <p class="cv-place">
+                    Teaching Assistant · University of Zanjan
+                  </p>
+                  <p class="cv-description">
+                    With Dr. Leila Safari. Supported students with technical
+                    English exercises and individual coursework.
+                  </p>
+                </div>
+              </article>
+            </section>
+            <section
+              class="resume-section"
+              id="awards"
+              aria-labelledby="awards-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">07</span>
+                <h2 id="awards-title">Awards &amp; Honors</h2>
+              </div>
+              <article class="cv-entry">
+                <p class="cv-date">2024</p>
+                <div>
+                  <h3>
+                    <a
+                      href="https://www.sciencedirect.com/science/article/pii/S2162253124002579"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >DTMP-Prime acknowledgment
+                      <span aria-hidden="true">↗</span></a
+                    >
+                  </h3>
+                  <p class="cv-place">Molecular Therapy – Nucleic Acids</p>
+                  <p class="cv-description">
+                    Acknowledged for building the project website and managing
+                    its GitHub repository.
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">2024</p>
+                <div>
+                  <h3>Top-ranking final project</h3>
+                  <p class="cv-place">
+                    Computer Engineering Faculty · University of Zanjan
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">2023</p>
+                <div>
+                  <h3>Top 25 teams</h3>
+                  <p class="cv-place">ICPC Contest</p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <p class="cv-date">2019</p>
+                <div>
+                  <h3>Top 1.3% in the national university entrance exam</h3>
+                  <p class="cv-place">
+                    Ranked 2,206 among 164,000 participants
+                  </p>
+                </div>
+              </article>
+            </section>
+            <section
+              class="resume-section"
+              id="skills"
+              aria-labelledby="skills-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">08</span>
+                <h2 id="skills-title">Skills</h2>
+              </div>
+              <dl class="skills-list">
+                <div>
+                  <dt>Programming</dt>
+                  <dd>Python, TypeScript, C#, Java, Rust</dd>
+                </div>
+                <div>
+                  <dt>Databases</dt>
+                  <dd>PostgreSQL, MongoDB, MS SQL</dd>
+                </div>
+                <div>
+                  <dt>Web frameworks</dt>
+                  <dd>Angular, React, FastAPI, .NET, Django</dd>
+                </div>
+                <div>
+                  <dt>AI / ML</dt>
+                  <dd>TensorFlow, Keras</dd>
+                </div>
+                <div>
+                  <dt>Infrastructure &amp; tools</dt>
+                  <dd>
+                    Docker, AWS, Kubernetes, Podman, Git, Linux, Kafka, Superset
+                  </dd>
+                </div>
+              </dl>
+            </section>
+            <section
+              class="resume-section"
+              id="research-interests"
+              aria-labelledby="research-interests-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">09</span>
+                <h2 id="research-interests-title">Research Interests</h2>
+              </div>
+              <dl class="skills-list">
+                <div>
+                  <dt>Software engineering</dt>
+                  <dd>
+                    Software engineering paradigms, modular and distributed
+                    architectures, and empirical evaluation of architectural
+                    trade-offs.
+                  </dd>
+                </div>
+                <div>
+                  <dt>Data systems</dt>
+                  <dd>
+                    Database systems, big data infrastructures, scalable batch
+                    and stream processing, data quality, and integration.
+                  </dd>
+                </div>
+                <div>
+                  <dt>Robotics</dt>
+                  <dd>
+                    Software architectures for robotic and autonomous systems,
+                    perception, and sensor-data processing.
+                  </dd>
+                </div>
+              </dl>
+            </section>
+            <section
+              class="resume-section"
+              id="courses"
+              aria-labelledby="courses-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">10</span>
+                <h2 id="courses-title">Additional Courses</h2>
+              </div>
+              <article class="cv-entry">
+                <p class="cv-date">Feb 2022</p>
+                <div>
+                  <h3>Domain-Driven Design Software Architecture</h3>
+                  <p class="cv-place">Tehran · dddiran.com</p>
+                </div>
+              </article>
+            </section>
+            <section
+              class="resume-section"
+              id="languages"
+              aria-labelledby="languages-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">11</span>
+                <h2 id="languages-title">Languages</h2>
+              </div>
+              <dl class="language-list">
+                <div>
+                  <dt>English</dt>
+                  <dd>C2</dd>
+                </div>
+                <div>
+                  <dt>German</dt>
+                  <dd>B1</dd>
+                </div>
+                <div>
+                  <dt>Persian</dt>
+                  <dd>Native</dd>
+                </div>
+                <div>
+                  <dt>French</dt>
+                  <dd>A1</dd>
+                </div>
+                <div>
+                  <dt>Turkish</dt>
+                  <dd>C1</dd>
+                </div>
+              </dl>
+            </section>
+            <section
+              class="resume-section"
+              id="blog"
+              aria-labelledby="blog-title"
+            >
+              <div class="resume-heading">
+                <span class="section-number">12</span>
+                <h2 id="blog-title">Blog</h2>
+              </div>
+              <p class="blog-intro">
+                Notes, ideas, and things I’m learning along the way.
+              </p>
+              <input
+                id="blog-search"
+                class="blog-search"
+                type="search"
+                placeholder="Find a post…"
+                aria-label="Search blog posts"
+                hidden
+              />
+              <div id="blog-list" class="blog-list"></div>
+              <p
+                id="blog-status"
+                class="blog-status"
+                role="status"
+                aria-live="polite"
+              >
+                Loading posts…
+              </p>
+              <noscript
+                ><p class="blog-status-nojs">
+                  Browse the original posts on
+                  <a
+                    href="https://github.com/kiansahafi/kiansahafi.github.io/tree/main/posts"
+                    >GitHub ↗</a
+                  >.
+                </p></noscript
+              >
+            </section>
+          </div>
         </div>
-        <div class="portrait-area">
-          <svg class="sketch" viewBox="0 0 460 460" aria-hidden="true" focusable="false">
-            <g class="sketch-lines">
-              <path d="M40 85L160 35L306 80L418 38M160 35L213 155L306 80L416 188M40 85L70 240L213 155L262 305L416 188L427 346M70 240L38 389L171 420L262 305L345 422L427 346M213 155L416 188M262 305L171 420"/>
-            </g>
-            <g class="sketch-nodes"><circle cx="40" cy="85" r="4"/><circle cx="160" cy="35" r="4"/><circle cx="306" cy="80" r="5"/><circle cx="418" cy="38" r="4"/><circle cx="213" cy="155" r="5"/><circle cx="416" cy="188" r="4"/><circle cx="70" cy="240" r="5"/><circle cx="262" cy="305" r="4"/><circle cx="427" cy="346" r="5"/><circle cx="38" cy="389" r="4"/><circle cx="171" cy="420" r="5"/><circle cx="345" cy="422" r="4"/></g>
-          </svg>
-          <figure class="portrait-card">
-            <div class="portrait-crop"><img src="assets/kian-sahafi.jpg" alt="Kian Sahafi wearing glasses and a grey jacket" width="945" height="1181" fetchpriority="high"></div>
-            <figcaption><span>hello, that’s me</span><span aria-hidden="true">:)</span></figcaption>
-          </figure>
-          <div class="portrait-note" aria-hidden="true">a face to the name <span>↖</span></div>
-          <button class="sketch-shuffle interactive-only" type="button" aria-label="Rearrange the decorative sketch">a little room to play <span aria-hidden="true">↻</span></button>
-        </div>
-        <div class="hero-foot"><p>Software engineering · Data systems · Research</p><a href="#education" aria-label="Explore education and experience">Scroll a little <span aria-hidden="true">↓</span></a></div>
-      </section>
 
-<div class="cv-layout"><aside class="cv-sidebar"><nav aria-label="CV sections"><p class="small-label">On this page</p><a href="#education">Education</a><a href="#work-experience">Work Experience</a><a href="#research-experience">Research Experience</a><a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#teaching">Teaching Experience</a><a href="#awards">Awards &amp; Honors</a><a href="#skills">Skills</a><a href="#research-interests">Research Interests</a><a href="#courses">Additional Courses</a><a href="#languages">Languages</a><a href="#blog">Blog</a></nav></aside><div class="cv-content"><section class="resume-section" id="education" aria-labelledby="education-title"><div class="resume-heading"><span class="section-number">01</span><h2 id="education-title">Education</h2></div><article class="cv-entry"><p class="cv-date">2024 — present</p><div><h3>MSc, Computer Science</h3><p class="cv-place">University of Bern · Switzerland</p><ul class="cv-bullets"><li><strong>Master’s thesis:</strong> <em>Design and Evaluation of a Reference Architecture for Modular, Risk-Aware Backtesting Systems.</em> Comparing trading platforms and the trade-offs between batch and event-driven architectures.</li><li>Collaborated on <em>Universal Merge: A Language-Agnostic Recommender for Merge Conflict Resolution</em> with Prof. Timo Kehrer.</li></ul></div></article><article class="cv-entry"><p class="cv-date">2020 — 2024</p><div><h3>BSc, Computer Engineering</h3><p class="cv-place">University of Zanjan · Iran</p><ul class="cv-bullets"><li>Top team in the university ICPC contest; member of the University Innovation Center Incubator.</li><li>Teaching assistant for Advanced Programming and System Design &amp; Analysis.</li></ul></div></article><article class="cv-entry"><p class="cv-date">2016 — 2020</p><div><h3>High School · Mathematics &amp; Physics</h3><p class="cv-place">Shahid Beheshti Exceptional Talents High School (NODET) · Iran</p><p class="cv-description">Ranked among the top 10 students in the Mathematics and Physics Department.</p></div></article></section><section class="resume-section" id="work-experience" aria-labelledby="work-experience-title"><div class="resume-heading"><span class="section-number">02</span><h2 id="work-experience-title">Work Experience</h2></div><article class="cv-entry"><p class="cv-date">Aug 2025 —<br> May 2026</p><div><h3>Software Engineer</h3><p class="cv-place">YUUNIQ Health · Winterthur, Switzerland</p><ul class="cv-bullets"><li>Led the production data-layer migration from MongoDB to PostgreSQL, from schema design and validation to deployment.</li><li>Built an agentic LLM system with persistent memory on AWS and Docker under health-data privacy constraints; reduced token usage by around 60%.</li><li>Developed a cold-start recommendation system and its interaction-data pipeline.</li><li>Increased test coverage by 30% and contributed to a cross-company merger integration.</li></ul></div></article><article class="cv-entry"><p class="cv-date">Apr 2022 —<br> Sep 2024</p><div><h3>Software Engineer &amp; Co-founder</h3><p class="cv-place">Firozak · Zanjan, Iran</p><ul class="cv-bullets"><li>Built nine distributed data-processing bots and evaluated microservices trade-offs in reliability, maintainability, and complexity.</li><li>Worked with customers, reviewed code, and mentored engineers; contributed to 50% user growth.</li></ul></div></article><article class="cv-entry"><p class="cv-date">Apr 2021 —<br> Apr 2022</p><div><h3>Software Engineer</h3><p class="cv-place">Tose’e System Tavana · Zanjan, Iran</p><ul class="cv-bullets"><li>Proposed three core product features, including a multi-format barcode generator built with C# and Angular.</li><li>Refactored the Angular frontend, halving bundle size; introduced unit and end-to-end tests reaching 75% coverage.</li><li>Mentored new members of the ERP team.</li></ul></div></article></section><section class="resume-section" id="research-experience" aria-labelledby="research-experience-title"><div class="resume-heading"><span class="section-number">03</span><h2 id="research-experience-title">Research Experience</h2></div><article class="cv-entry"><p class="cv-date">Oct 2024 —<br> Aug 2025</p><div><h3>Research Assistant</h3><p class="cv-place">Software Engineering Group · University of Bern</p><ul class="cv-bullets"><li>Worked with Prof. Timo Kehrer on Merge++, exploring automated merge conflict resolution in GitHub repositories.</li><li>Conducted literature reviews, built research prototypes, and contributed to empirical evaluations.</li><li>Built reproducible experiment pipelines and documented research findings.</li></ul></div></article><article class="cv-entry"><p class="cv-date">Aug 2023 —<br> Feb 2024</p><div><h3>Student Helper (Research)</h3><p class="cv-place">Natural Language Processing (NLP) Lab · University of Zanjan</p><ul class="cv-bullets"><li>Developed deep learning models for CRISPR off-target prediction under the supervision of Prof. Leila Safari.</li><li>Performed data curation and preprocessing, including cleaning and preparing datasets for deep learning experiments.</li></ul></div></article></section><section class="resume-section" id="projects" aria-labelledby="projects-title"><div class="resume-heading"><span class="section-number">04</span><h2 id="projects-title">Projects</h2></div><article class="cv-entry"><p class="cv-date">Jun 2026 —<br> present</p><div><h3>Caritas Dashboard</h3><p class="cv-place">Bern University of Applied Sciences (BFH)</p><p class="cv-description">A secure analytics stack for sensitive welfare records, with automatic type inference. Built with Python, PostgreSQL, Apache Superset, and Podman.</p></div></article><article class="cv-entry"><p class="cv-date">Dec 2024</p><div><h3><a href="https://github.com/kiansahafi/PetBreedClassifier-ResNet50" target="_blank" rel="noopener noreferrer">Oxford-IIIT Pet Classification <span aria-hidden="true">↗</span></a></h3><p class="cv-place">AI / Computer vision</p><p class="cv-description">Transfer learning with ResNet-50 in TensorFlow and Keras.</p></div></article><article class="cv-entry"><p class="cv-date">Oct 2023</p><div><h3><a href="https://github.com/kiansahafi/AI-Traffic-sign-Detection" target="_blank" rel="noopener noreferrer">Traffic Sign Detection <span aria-hidden="true">↗</span></a></h3><p class="cv-place">AI / Computer vision</p><p class="cv-description">Traffic sign detection using YOLO.</p></div></article><article class="cv-entry"><p class="cv-date">Dec 2022</p><div><h3><a href="https://github.com/kiansahafi/Compiler_Project_University" target="_blank" rel="noopener noreferrer">Compiler Project <span aria-hidden="true">↗</span></a></h3><p class="cv-place">Programming languages</p><p class="cv-description">A custom compiler implemented in Python.</p></div></article></section><section class="resume-section" id="publications" aria-labelledby="publications-title"><div class="resume-heading"><span class="section-number">05</span><h2 id="publications-title">Publications</h2></div><article class="cv-entry"><p class="cv-date">In progress</p><div><h3>Universal Merge: A Language-Agnostic Recommender for Merge Conflict Resolution</h3></div></article><article class="cv-entry"><p class="cv-date">Feb 2024</p><div><h3><a href="https://civilica.com/doc/2108465/" target="_blank" rel="noopener noreferrer">A Hybrid Deep Learning-based Model for Off-target Prediction in CRISPR System <span aria-hidden="true">↗</span></a></h3><p class="cv-place">Conference paper</p></div></article></section><section class="resume-section" id="teaching" aria-labelledby="teaching-title"><div class="resume-heading"><span class="section-number">06</span><h2 id="teaching-title">Teaching Experience</h2></div><article class="cv-entry"><p class="cv-date">Spring 2023</p><div><h3>Advanced Programming</h3><p class="cv-place">Teaching Assistant · University of Zanjan</p><p class="cv-description">With Dr. Hossein Mohammadi. Mentored students, led troubleshooting sessions, and designed the final course project.</p></div></article><article class="cv-entry"><p class="cv-date">Fall 2022</p><div><h3>Advanced Programming</h3><p class="cv-place">Head Teaching Assistant · University of Zanjan</p><p class="cv-description">With Dr. Saeed Rahmani. Coordinated the TA team and managed the course project.</p></div></article><article class="cv-entry"><p class="cv-date">Fall 2022</p><div><h3>System Design &amp; Analysis</h3><p class="cv-place">Teaching Assistant · University of Zanjan</p><p class="cv-description">With Dr. Saeed Rahmani. Guided students on software architecture and assisted with project evaluation.</p></div></article><article class="cv-entry"><p class="cv-date">Spring 2021</p><div><h3>Advanced English for Computer Students</h3><p class="cv-place">Teaching Assistant · University of Zanjan</p><p class="cv-description">With Dr. Leila Safari. Supported students with technical English exercises and individual coursework.</p></div></article></section><section class="resume-section" id="awards" aria-labelledby="awards-title"><div class="resume-heading"><span class="section-number">07</span><h2 id="awards-title">Awards &amp; Honors</h2></div><article class="cv-entry"><p class="cv-date">2024</p><div><h3><a href="https://www.sciencedirect.com/science/article/pii/S2162253124002579" target="_blank" rel="noopener noreferrer">DTMP-Prime acknowledgment <span aria-hidden="true">↗</span></a></h3><p class="cv-place">Molecular Therapy – Nucleic Acids</p><p class="cv-description">Acknowledged for building the project website and managing its GitHub repository.</p></div></article><article class="cv-entry"><p class="cv-date">2024</p><div><h3>Top-ranking final project</h3><p class="cv-place">Computer Engineering Faculty · University of Zanjan</p></div></article><article class="cv-entry"><p class="cv-date">2023</p><div><h3>Top 25 teams</h3><p class="cv-place">ICPC Contest</p></div></article><article class="cv-entry"><p class="cv-date">2019</p><div><h3>Top 1.3% in the national university entrance exam</h3><p class="cv-place">Ranked 2,206 among 164,000 participants</p></div></article></section><section class="resume-section" id="skills" aria-labelledby="skills-title"><div class="resume-heading"><span class="section-number">08</span><h2 id="skills-title">Skills</h2></div><dl class="skills-list"><div><dt>Programming</dt><dd>Python, TypeScript, C#, Java, Rust</dd></div><div><dt>Databases</dt><dd>PostgreSQL, MongoDB, MS SQL</dd></div><div><dt>Web frameworks</dt><dd>Angular, React, FastAPI, .NET, Django</dd></div><div><dt>AI / ML</dt><dd>TensorFlow, Keras</dd></div><div><dt>Infrastructure &amp; tools</dt><dd>Docker, AWS, Kubernetes, Podman, Git, Linux, Kafka, Superset</dd></div></dl></section><section class="resume-section" id="research-interests" aria-labelledby="research-interests-title"><div class="resume-heading"><span class="section-number">09</span><h2 id="research-interests-title">Research Interests</h2></div><dl class="skills-list"><div><dt>Software engineering</dt><dd>Software engineering paradigms, modular and distributed architectures, and empirical evaluation of architectural trade-offs.</dd></div><div><dt>Data systems</dt><dd>Database systems, big data infrastructures, scalable batch and stream processing, data quality, and integration.</dd></div><div><dt>Robotics</dt><dd>Software architectures for robotic and autonomous systems, perception, and sensor-data processing.</dd></div></dl></section><section class="resume-section" id="courses" aria-labelledby="courses-title"><div class="resume-heading"><span class="section-number">10</span><h2 id="courses-title">Additional Courses</h2></div><article class="cv-entry"><p class="cv-date">Feb 2022</p><div><h3>Domain-Driven Design Software Architecture</h3><p class="cv-place">Tehran · dddiran.com</p></div></article></section><section class="resume-section" id="languages" aria-labelledby="languages-title"><div class="resume-heading"><span class="section-number">11</span><h2 id="languages-title">Languages</h2></div><dl class="language-list"><div><dt>English</dt><dd>C2</dd></div><div><dt>German</dt><dd>B1</dd></div><div><dt>Persian</dt><dd>Native</dd></div><div><dt>French</dt><dd>A1</dd></div><div><dt>Turkish</dt><dd>C1</dd></div></dl></section><section class="resume-section" id="blog" aria-labelledby="blog-title">
-  <div class="resume-heading"><span class="section-number">12</span><h2 id="blog-title">Blog</h2></div>
-  <p class="blog-intro">Notes, ideas, and things I’m learning along the way.</p>
-  <input id="blog-search" class="blog-search" type="search" placeholder="Find a post…" aria-label="Search blog posts" hidden>
-  <div id="blog-list" class="blog-list"></div>
-  <p id="blog-status" class="blog-status" role="status" aria-live="polite">Loading posts…</p>
-  <noscript><p class="blog-status-nojs">Browse the original posts on <a href="https://github.com/kiansahafi/kiansahafi.github.io/tree/main/posts">GitHub ↗</a>.</p></noscript>
-</section></div></div>
+        <section
+          class="contact-section"
+          id="contact"
+          aria-labelledby="contact-title"
+        >
+          <div>
+            <p class="section-number">Say hello</p>
+            <h2 id="contact-title">Contact</h2>
+            <p>
+              Happy to talk about a role, a research question, a project, or
+              just say hello.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a class="contact-email" href="mailto:kiansahafi1@gmail.com"
+              >kiansahafi1@gmail.com <span aria-hidden="true">↗</span></a
+            ><button class="copy-email interactive-only" type="button">
+              Copy email <span aria-hidden="true">⧉</span>
+            </button>
+            <div class="social-links">
+              <a
+                href="https://github.com/kiansahafi"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub <span aria-hidden="true">↗</span></a
+              ><a
+                href="https://www.linkedin.com/in/kiansahafi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn <span aria-hidden="true">↗</span></a
+              >
+            </div>
+            <p class="copy-status" role="status" aria-live="polite"></p>
+          </div>
+        </section>
+      </main>
 
-      <section class="contact-section" id="contact" aria-labelledby="contact-title"><div><p class="section-number">Say hello</p><h2 id="contact-title">Contact</h2><p>Happy to talk about a role, a research question, a project, or just say hello.</p></div><div class="contact-links"><a class="contact-email" href="mailto:kiansahafi1@gmail.com">kiansahafi1@gmail.com <span aria-hidden="true">↗</span></a><button class="copy-email interactive-only" type="button">Copy email <span aria-hidden="true">⧉</span></button><div class="social-links"><a href="https://github.com/kiansahafi" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/kiansahafi/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div><p class="copy-status" role="status" aria-live="polite"></p></div></section>
-    </main>
-
-    <footer class="site-footer"><p>© <span id="year">2026</span> Kian Sahafi <span class="footer-divider">/</span> Bern, Switzerland</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
-  </div>
-</body>
+      <footer class="site-footer">
+        <p>
+          © <span id="year">2026</span> Kian Sahafi
+          <span class="footer-divider">/</span> Bern, Switzerland
+        </p>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+  </body>
 </html>
